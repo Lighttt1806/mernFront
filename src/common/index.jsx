@@ -1,6 +1,6 @@
 import ProductDetails from "../pages/ProductDetails";
 
-const backendDomain = 'https://mernback-6xe7.onrender.com';
+const backendDomain = import.meta.env.VITE_API_BASE_URL;
 
 const SummaryApi ={
   signUp: {
